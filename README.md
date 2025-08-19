@@ -21,3 +21,5 @@ To publish to Wolfram Cloud:
 ```wolfram
 nb = CreateDocument[Get["HybridSeasonalLSTM.wl"]];
 CloudDeploy[nb, Permissions -> "Public"]
+## 🌐 Demo
+Public Cloud notebook and repo link available.
