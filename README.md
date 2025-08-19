@@ -21,13 +21,3 @@ The interactive spatiotemporal visualization makes the results tangible, echoing
 - Interactive `Manipulate`: regional network + time-series panel  
 
 ---
-
-## 🚀 Quickstart
-1. Open `HybridSeasonalLSTM.wl` in Mathematica / Wolfram Desktop (v13+ recommended) and evaluate all cells,  
-   or paste the code into a new notebook and run.  
-2. Use the slider to move through forecast months and the drop-down to switch region.  
-
-To publish to Wolfram Cloud:
-```wolfram
-nb = CreateDocument[Get["HybridSeasonalLSTM.wl"]];
-CloudDeploy[nb, Permissions -> "Public"]
